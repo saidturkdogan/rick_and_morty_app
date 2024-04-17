@@ -1,0 +1,77 @@
+.characters-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.character-card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.character-card img {
+    width: 100%;
+    height: auto;
+}
+
+.character-card h3 {
+    margin-top: 0;
+}
+
+.search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.navbar {
+
+    color: #fff;
+    text-align: right;
+    padding: 40px;
+}
+
+.navbar h2 {
+    margin: 1px;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.favorites-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.favorite-card {
+    width: calc(11.11% - 20px);
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.favorite-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.favorite-card h3 {
+    margin-top: 0;
+}
+
+.favorite-card button {
+    margin-top: 10px;
+}
